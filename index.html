@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO_List</title>
+</head>
+<body>
+    <section class="container">
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <h1 id="header" class="header">To-Do App</h1>
+
+        <form class="new-task-container box">
+            <label for="new-task" class="add__text">Add New Task :</label>
+            <input type="text" id="new-task" class="input">
+            <input type="submit" id="addTask" value="Add Task" class="btn">
+        </form>
+        <div class="list">
+
+        <div class="todo-list box">
+            <h2>Incomplete Tasks</h2>
+            <ul id="items">
+                  <li class="item">
+                      <input type="checkbox"><label for="">Task Name</label>
+                  </li>
+                  <li class="item">
+                    <input type="checkbox"><label for="">Task Name</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox"><label for="">Task Name</label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- todo-list -->
+            <div class="complete-list box">
+                <h2>Complete Tasks</h2>
+                <ul>
+                    <li class="item">Task Name <button class="delete">Delete</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
